@@ -1,0 +1,29 @@
+// functions that can take parameters
+// @mixin flexCenter($direction, $background) {
+//     height: 100vh;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     flex-direction: $direction;
+//     background: $background;
+// }
+
+header {
+
+    // @include flexCenter(column, rgb(110, 34, 34));
+
+    height: 100vh;
+    background-color: lightblue;
+    color: $textColor;
+
+    button {
+        background: $primaryBtn;
+        &:hover {
+            background: red;
+        }
+        &::after {
+            content: ' Again!';
+        }
+    }
+
+}

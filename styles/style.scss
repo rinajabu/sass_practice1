@@ -1,0 +1,13 @@
+@import './variables';
+@import './header';
+
+.contact {
+
+    // @include flexCenter(row, rgb(41, 41, 136));
+
+    // extend will inherit styling from header
+    @extend header;
+    // can overwrite styling under it
+    background-color: lightcoral;
+
+}

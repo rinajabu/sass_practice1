@@ -1,0 +1,22 @@
+header, .contact {
+  height: 100vh;
+  background-color: lightblue;
+  color: black;
+}
+
+header button, .contact button {
+  background: #2a51a0;
+}
+
+header button:hover, .contact button:hover {
+  background: red;
+}
+
+header button::after, .contact button::after {
+  content: ' Again!';
+}
+
+.contact {
+  background-color: lightcoral;
+}
+/*# sourceMappingURL=style.css.map */
